@@ -1,6 +1,11 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "rcmdnk/file"
+tap "homebrew/cask-fonts"
+
+# Fonts
+cask "font-fira-code-nerd-font"
+cask "font-fira-code"
 
 # Brews
 brew "chezmoi"
