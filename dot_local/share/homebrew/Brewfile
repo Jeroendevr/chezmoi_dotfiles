@@ -1,0 +1,5 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "rcmdnk/file"
+brew "chezmoi"
+brew "git"
