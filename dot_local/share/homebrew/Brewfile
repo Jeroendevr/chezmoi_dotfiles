@@ -3,3 +3,5 @@ tap "homebrew/core"
 tap "rcmdnk/file"
 brew "chezmoi"
 brew "git"
+brew "iterm2"
+ 
