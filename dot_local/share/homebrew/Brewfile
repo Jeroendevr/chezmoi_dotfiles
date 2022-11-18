@@ -7,6 +7,9 @@ brew "chezmoi"
 brew "git"
 brew "mas" 
 brew "fish"
+brew "fisher"
+brew "brew-cask-completion"
+
 
 # Casks 
 cask "butler"
