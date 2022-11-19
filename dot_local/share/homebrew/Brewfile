@@ -19,6 +19,7 @@ brew "brew-cask-completion"
 # Casks 
 cask "arq"
 cask "butler"
+cask "default-folder-x"
 cask "dropbox" 
 cask "forklift"
 cask "google-drive"
