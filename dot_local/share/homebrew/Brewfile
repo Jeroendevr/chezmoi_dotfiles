@@ -17,6 +17,7 @@ brew "brew-cask-completion"
 
 
 # Casks 
+cask "arq"
 cask "butler"
 cask "dropbox" 
 cask "forklift"
