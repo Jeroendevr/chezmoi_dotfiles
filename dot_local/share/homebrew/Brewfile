@@ -24,9 +24,11 @@ cask "forklift"
 cask "google-drive"
 cask "iterm2"
 cask "onedrive"
+cask "obsidian"
 cask "visual-studio-code"
 cask "vivaldi"
 cask "rectangle-pro"
+
 
 # MAS Mac app Store
 mas "Save to Raindrop.io", id: 1549370672
