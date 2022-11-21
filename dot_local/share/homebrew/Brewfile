@@ -32,6 +32,7 @@ cask "rectangle-pro"
 
 
 # MAS Mac app Store
+mas "Auxl", id: 1569003552
 mas "Save to Raindrop.io", id: 1549370672
 mas "AdBlock", id: 1402042596
 mas "DaisyDisk", id: 411643860
@@ -40,6 +41,7 @@ mas "OmniPlan", id: 1460319993
 mas "Pixelmator Pro", id: 1289583905
 mas "Save to Raindrop.io", id: 1549370672
 mas "Slack", id: 803453959
+mas "start", id: 1329701389
 mas "Strongbox", id: 897283731
 mas "Time Out", id: 402592703
 mas "Timery", id: 1425368544
