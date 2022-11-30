@@ -1488,8 +1488,25 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>Snippets</key>
+	<array>
+		<dict>
+			<key>guid</key>
+			<string>A65C0042-18F9-43D0-9C67-2CECD2F231E6</string>
+			<key>title</key>
+			<string>custom-feed-3</string>
+			<key>value</key>
+			<string>34.91.95.223</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Snippets</string>
+	</array>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 </dict>
