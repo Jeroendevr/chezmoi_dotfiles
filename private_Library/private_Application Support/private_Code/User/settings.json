@@ -1,0 +1,61 @@
+{
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "keyboard.dispatch": "keyCode",
+    
+    "workbench.editor.showTabs": true,
+    "workbench.colorTheme": "Birds of Paradise",
+    "workbench.startupEditor": "newUntitledFile",
+    "task.problemMatchers.neverPrompt": {
+        "npm": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "telemetry.telemetryLevel": "crash",
+    "update.showReleaseNotes": false,
+    "lldb.dbgconfig": {
+    
+    },
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "/opt/homebrew/bin/fish",
+            "args": [
+                "-l"
+            ]
+        },
+    },
+    "terminal.integrated.fontSize": 10,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000005"
+                }
+            }
+        ]
+    },
+    "jupyter.askForKernelRestart": false,
+    "editor.fontSize": 11,
+    "jupyter.interactiveWindowMode": "perFile",
+    "editor.renderWhitespace": "none",
+    
+}
