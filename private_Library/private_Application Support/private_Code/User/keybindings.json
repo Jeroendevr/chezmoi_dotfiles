@@ -20,5 +20,10 @@
     {
         "key": "shift+cmd+t",
         "command": "workbench.action.editorLayoutTwoColumns"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "git.sync",
+        "when": "workbench.scm.active"
     }
 ]

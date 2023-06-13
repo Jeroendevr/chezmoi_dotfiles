@@ -1488,6 +1488,8 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>Snippets</key>
 	<array>
 		<dict>

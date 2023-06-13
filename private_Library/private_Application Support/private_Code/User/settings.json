@@ -1,4 +1,18 @@
 {
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 11,
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "none",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000005"
+                }
+            }
+        ]
+    },
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -19,7 +33,6 @@
     "lldb.dbgconfig": {
     
     },
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.profiles.osx": {
         "bash": {
@@ -43,19 +56,10 @@
         },
     },
     "terminal.integrated.fontSize": 10,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword.other.dotenv",
-                "settings": {
-                    "foreground": "#FF000005"
-                }
-            }
-        ]
-    },
     "jupyter.askForKernelRestart": false,
-    "editor.fontSize": 11,
-    "jupyter.interactiveWindowMode": "perFile",
-    "editor.renderWhitespace": "none",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "update.mode": "start",
+    "lldb.suppressUpdateNotifications": true,
     
 }
