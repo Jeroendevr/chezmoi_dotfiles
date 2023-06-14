@@ -1,0 +1,11 @@
+[core]
+	excludesfile = /Users/hayer/.gitignore_global
+[user]
+	email = jeroen@maildevries.eu
+	name = Jeroen de Vries
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
