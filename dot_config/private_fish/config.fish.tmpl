@@ -6,5 +6,6 @@ end
 
 string match -q "$TERM_PROGRAM" "vscode"
 and . (code --locate-shell-integration-path fish)
+eval (/opt/homebrew/bin/brew shellenv)
 
 pyenv init - | source
