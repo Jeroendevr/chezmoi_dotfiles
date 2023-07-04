@@ -1,0 +1,7 @@
+{{ $email := promptString "email" "jeroen@maildevries.eu" -}}
+{{ $purpose := promptString "purpose home/work" "home" -}}
+
+
+[data]
+    email = "{{ $email }}"
+    purpose = "{{ $purpose }}"
