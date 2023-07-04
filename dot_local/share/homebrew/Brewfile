@@ -19,23 +19,25 @@ brew "brew-cask-completion"
 brew "imagemagick"
 brew "ffmpeg"
 
-
 # Casks 
-cask "arq"
-cask "butler"
+{{ if eq .purpose "home"}}
 cask "default-folder-x"
 cask "dropbox" 
 cask "forklift"
 cask "google-drive"
-cask "iterm2"
 cask "onedrive"
+{{ -end }}
+
+cask "arq"
+cask "butler"
+cask "iterm2"
 cask "obsidian"
 cask "visual-studio-code"
 cask "vivaldi"
 cask "rectangle-pro"
 
-
 # MAS Mac app Store
+{{- if eq .purpose "home" }}
 mas "Auxl", id: 1569003552
 mas "Save to Raindrop.io", id: 1549370672
 mas "AdBlock", id: 1402042596
@@ -44,10 +46,12 @@ mas "Hush", id: 1544743900
 mas "OmniPlan", id: 1460319993
 mas "OmniFocus 3", id: 1346203938
 mas "Pixelmator Pro", id: 1289583905
-mas "Save to Raindrop.io", id: 1549370672
-mas "Slack", id: 803453959
 mas "start", id: 1329701389
-mas "Strongbox", id: 897283731
-mas "Time Out", id: 402592703
 mas "Timery", id: 1425368544
 mas "Toggl Track", id: 1291898086
+{{- end}}
+
+mas "Time Out", id: 402592703
+mas "Strongbox", id: 897283731
+mas "Slack", id: 803453959
+mas "Save to Raindrop.io", id: 1549370672
